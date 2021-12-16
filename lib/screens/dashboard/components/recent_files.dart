@@ -31,13 +31,13 @@ class RecentFiles extends StatelessWidget {
               columnSpacing: defaultPadding,
               minWidth: 600,
               columns: [
-                DataColumn(
+                const DataColumn(
                   label: Text("File Name"),
                 ),
-                DataColumn(
+                const DataColumn(
                   label: Text("Date"),
                 ),
-                DataColumn(
+                const DataColumn(
                   label: Text("Size"),
                 ),
               ],
